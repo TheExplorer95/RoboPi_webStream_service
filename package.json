@@ -1,0 +1,18 @@
+{
+  "name": "robostream",
+  "version": "1.0.0",
+  "description": "To stream real time data from RoboPi.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Janosch Bajorath",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.8.8"
+  }
+}

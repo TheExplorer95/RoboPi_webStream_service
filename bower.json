@@ -1,0 +1,21 @@
+{
+  "name": "robostream",
+  "authors": [
+    "TheExplorer <j.bajorath@outlook.de>"
+  ],
+  "description": "To stream real time data from robPi.",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^16.1.0",
+    "bootstrap": "^4.5.2"
+  }
+}

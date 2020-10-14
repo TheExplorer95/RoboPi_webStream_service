@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head lang='en'>
+	<meta charset='UTF-9'>
+	<title>{{title}}</title>
+	<link rel='stylesheet' href="{{ url_for('static', filename='css/main.css') }}">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<header>
+		<div class='logoBanner'>	
+			<h1 class='logo'>RoboStream</h1>
+			<h2 class='logoSub'>RoboPi's data streaming site</h2>
+		</div>
+		<div class="topnav">
+  			<a href="{{ url_for('index') }}">Welcome</a>
+  			<a href="{{ url_for('streams') }}">Streams</a>
+  			<a href="{{ url_for('about') }}">About</a>
+		</div> 
+	</header>
+	
+	<div>
+		{% block content %}
+		{% endblock %}
+	</div>
+	
+	<aside>
+		<p1>{{time}}</p1>
+	</aside>
+</body>
+
+</html>
+

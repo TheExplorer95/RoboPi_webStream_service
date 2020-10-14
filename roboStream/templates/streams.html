@@ -1,0 +1,8 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+	<h1>FrontCam stream</h1>
+	<img src="{{ url_for('frontCam_feed') }}">
+	<h1>RealsenseCam stream</h1>
+	<img src="{{ url_for('realCam_feed') }}">
+{% endblock %}
